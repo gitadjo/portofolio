@@ -1,0 +1,106 @@
+body{
+    font-family: 'Sacramento', cursive; 
+}
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 50%;
+    font-size: 100px;
+    color: black;
+    font-weight: 500;
+    background-color: lightyellow;
+}
+.navbar{   
+    display: flex;
+    flex-direction: row;
+}
+.navbar a{
+    float: left;
+    padding: 12px;
+    color: black;
+    font-size: 50px;
+    width: 60%; 
+    text-align: center; 
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: lightgreen;
+    -webkit-text-stroke: 1px black;
+}
+.navbar a:hover {
+    color: lightpink;
+}      
+.link{
+    flex-grow: 1;
+    font-size: 80px;
+} 
+.personal{
+    display: flex;  
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+    padding: 60px;
+}
+.personal-1{
+    padding-right: 60px auto;
+    border: yellow;
+    border-radius: 20px;
+}
+.personal-2{
+    font-size: 50px;
+    text-align: center;
+    justify-content:flex-end;
+    padding: 60px auto;
+}
+.job-1{    
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    padding: 20px 0;
+}
+.image-maje, .image-scotch{
+    border: yellow;
+    border-radius: 20px;
+    justify-content: center;
+}
+.link-maje, .link-scotch{
+    font-size: 60px; 
+    color: black;
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: lightgreen;
+    -webkit-text-stroke: 1px black;
+}
+.text-maje, .text-scotch{
+    font-size: 60px;
+    text-align: center;
+    justify-content: flex-end;
+}
+.job-2{
+    background-color: lightyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    padding: 20px 0;
+}
+.job-1 a:hover, .job-2 a:hover{
+    color: lightpink;
+}
+footer{
+    float: center;
+    padding: 30px auto;
+    font-size: 20px;  
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: yellow;  
+    justify-content: center;
+    text-align: center;
+    background-color: lightpink;
+}
+
+       
